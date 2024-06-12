@@ -1,5 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ApiserviseService } from './services/apiservise.service';
+import { Flower } from './types/flower.interface';
 
 @Component({
   selector: 'app-root',
