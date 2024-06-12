@@ -1,14 +1,10 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CardComponent } from './components/card/card.component';
-import { ApiserviseService } from './services/apiservise.service';
-import { Flower } from './types/flower.interface';
-import { SliderComponent } from './components/slider/slider.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CardComponent, SliderComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
