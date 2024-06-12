@@ -1,0 +1,19 @@
+.section-footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-up {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #46A35819;
+}

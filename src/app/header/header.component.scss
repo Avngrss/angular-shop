@@ -1,0 +1,25 @@
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  border-bottom: 1px solid #5ace71;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100px;
+  height: 35px;
+  background-color: #46A358;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background-color: #5ace71;
+}
